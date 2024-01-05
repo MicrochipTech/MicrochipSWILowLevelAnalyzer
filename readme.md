@@ -21,7 +21,7 @@ To use this analyzer, simply download the latest release zip file from this Git 
 https://support.saleae.com/faq/technical-faq/setting-up-developer-directory
 
 > [!NOTE]  
-> This section only applies to downloaded pre-built protocol analyzer binaries on MacOS. If you build the protocol analyzer locally; or acquire it in a different way, this section does not apply.
+> The following section only applies to downloaded pre-built protocol analyzer binaries on MacOS. If you build the protocol analyzer locally; or acquire it in a different way, this section does not apply.
 
 Any time you download a binary from the internet on a Mac, whether it be an application or a shared library, MacOS will flag that binary for "quarantine". MacOS then requires any quarantined binary to be signed and notarized through the MacOS developer program before it will allow that binary to be executed.
 
