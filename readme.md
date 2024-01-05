@@ -20,11 +20,8 @@ To use this analyzer, simply download the latest release zip file from this Git 
 
 https://support.saleae.com/faq/technical-faq/setting-up-developer-directory
 
-> Note, that until further notice the only prebuilt analyzers will be for windows.
-
-<!-- # A note on downloading the MacOS Analyzer builds
-
-This section only applies to downloaded pre-built protocol analyzer binaries on MacOS. If you build the protocol analyzer locally; or acquire it in a different way, this section does not apply.
+> [!NOTE]  
+> This section only applies to downloaded pre-built protocol analyzer binaries on MacOS. If you build the protocol analyzer locally; or acquire it in a different way, this section does not apply.
 
 Any time you download a binary from the internet on a Mac, whether it be an application or a shared library, MacOS will flag that binary for "quarantine". MacOS then requires any quarantined binary to be signed and notarized through the MacOS developer program before it will allow that binary to be executed.
 
@@ -55,9 +52,12 @@ This command will remove the quarantine flag:
 xattr -r -d com.apple.quarantine libSimpleSerialAnalyzer.so
 ```
 
-To verify the flag was removed, run the first command again and verify the quarantine flag is no longer present. -->
+To verify the flag was removed, run the first command again and verify the quarantine flag is no longer present.
 
 ## Building your Analyzer
+
+> [!NOTE]  
+> This section if for those with compatability issues or those who wish to modify the analyzer for their own purposes.
 
 CMake and a C++ compiler are required. Instructions for installing dependencies can be found here:
 https://github.com/saleae/SampleAnalyzer

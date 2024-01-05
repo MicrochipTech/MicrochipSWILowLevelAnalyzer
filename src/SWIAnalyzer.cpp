@@ -154,7 +154,7 @@ void SWIAnalyzer::WorkerThread()
                 if( i < 8 )
                 {
 					if(GetBit(isHSPD, lowtime) == !SWI_FLAG_ACK){
-						dataholder += 1i64 << ( 7 - i );
+						dataholder += (U64)1 << ( 7 - i );
 					}
                     mSerial->AdvanceToNextEdge(); // falling
                 }

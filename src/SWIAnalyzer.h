@@ -25,9 +25,9 @@ public:
 	virtual U32 GenerateSimulationData( U64 newest_sample_requested, U32 sample_rate, SimulationChannelDescriptor** simulation_channels );
 	virtual U32 GetMinimumSampleRateHz();
 
-	U64 SWIAnalyzer::Get_us_Val(U64 us_value);
-	void SWIAnalyzer::AddFrame( U64 SampleBegin, U64 SampleEnd, SWIFrameType FrameType, U64 Data1, U8 Flag );
-	U8 SWIAnalyzer::GetBit(bool HSPD, U64 LowTime);
+	U64 Get_us_Val(U64 us_value);
+	void AddFrame( U64 SampleBegin, U64 SampleEnd, SWIFrameType FrameType, U64 Data1, U8 Flag );
+	U8 GetBit(bool HSPD, U64 LowTime);
 
 	virtual const char* GetAnalyzerName() const;
 	virtual bool NeedsRerun();
