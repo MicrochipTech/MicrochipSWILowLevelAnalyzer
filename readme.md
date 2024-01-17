@@ -2,7 +2,7 @@
 
 # Microchip SWI Logic Analyzer
 
-This protocol analyzer is built with SWI EEPROMs in mind, this offers a consistent readout of SWI protocol.
+This protocol analyzer is built with [SWI EEPROMs](https://www.microchip.com/en-us/parametric-search.html/506?filters=eyJjYXRlZ29yeWRyb3Bkb3duIjpbIk1pY3JvY29udHJvbGxlcnMgYW5kIE1pY3JvcHJvY2Vzc29ycyIsIkFsbCBNaWNyb2NvbnRyb2xsZXJzIiwiIl19) in mind, this offers a consistent readout of SWI protocol.
 
 Documentation for the Saleae Logic Analyzer SDK can be found here:
 https://github.com/saleae/SampleAnalyzer
